@@ -1,5 +1,5 @@
 
-import dash 
+import dash
 from dash import dcc, html, Input, Output, State, dash_table, callback_context, ALL, MATCH
 import dash_bootstrap_components as dbc
 import sqlite3
@@ -45,10 +45,8 @@ server = app.server
 app.config.suppress_callback_exceptions = True  # Remove callback error display
 
 # Hardcoded API keys (for demonstration only - use environment variables in production)
-import os
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-AGORA_APP_ID = os.getenv("AGORA_APP_ID")
+GEMINI_API_KEY = "AQ.Ab8RN6IXbccgKM-YWMYBp_4O6IyBQkQgoD3SdVeh3JW_mNyhyA"  # Replace with your actual Gemini API key
+AGORA_APP_ID = "79900bea4285434da3095127036de80a"
 
 # Initialize Gemini client
 try:
