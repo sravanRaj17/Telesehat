@@ -1,7 +1,1 @@
-dash
-dash-bootstrap-components
-pandas
-plotly
-google-generativeai
-Pillow
-requests
+pip freeze > requirements.txt
