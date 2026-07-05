@@ -45,8 +45,8 @@ server = app.server
 app.config.suppress_callback_exceptions = True  # Remove callback error display
 
 # Hardcoded API keys (for demonstration only - use environment variables in production)
-GEMINI_API_KEY = "AQ.Ab8RN6IXbccgKM-YWMYBp_4O6IyBQkQgoD3SdVeh3JW_mNyhyA"  # Replace with your actual Gemini API key
-AGORA_APP_ID = "79900bea4285434da3095127036de80a"
+GEMINI_API_KEY = "YOUR_KEY"
+AGORA_APP_ID = "YOUR_APP_ID"
 
 # Initialize Gemini client
 try:
